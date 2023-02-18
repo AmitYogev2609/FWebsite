@@ -15,7 +15,6 @@ table, th, td {
 <body style="padding:5px 10px 0px 5px">
      <h1>Upload file</h1>
   
- 
     <form id="form1" runat="server" enctype="multipart/form-data">
         <input type="submit" name="logout" value="log out" id="log out" />
         <br />

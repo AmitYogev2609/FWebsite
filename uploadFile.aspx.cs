@@ -18,7 +18,7 @@ namespace FWebsite
         List<string> filePaths;
         public string messege;
         public int UserID;
-       static int count = 0;
+        static int count = 0;
         SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=D:\FWebsite\App_Data\FilesDB.mdf;Integrated Security = True");
 
         protected void Page_Load(object sender, EventArgs e)
